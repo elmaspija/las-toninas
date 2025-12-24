@@ -1,0 +1,202 @@
+#hero{ 
+    height: 60vh ; 
+    width: 100vw;  
+    background: url(fotos/mar.jpg) ;
+    background-position: center; 
+	background-size: cover;
+    
+h1{ 
+	margin-bottom: 0px;}
+
+h2{
+margin-top:5px ; 
+}
+
+}
+#center {  
+    height: 80%; 
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center ; 
+    align-items: center;  
+
+}
+
+#title {
+	background-color: rgba(103, 131, 135, 0.7);
+	height: 40%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	border-radius: 25px; 
+	box-shadow: 1px 1px 5px 1px rgba(53, 50, 50, 0.75) ; 
+	font-size: 100%;
+
+}
+
+#title:hover{
+	height:42% ;
+	width: 42%;  
+	font-size: 1.07em;
+	transition: 0.75s;
+}
+
+
+#parrafo{
+	margin: 0px;
+}
+
+.actividades-title {
+	text-align: center;  
+	font-weight: 700; 
+	font-size:3vh ;  
+	height: 15%; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+}
+
+
+#actividades{
+	background-color: #e3ba8366;  
+	height: 80vh; 
+}
+
+.contenedor{
+	display: flex; 
+	justify-content: center; }
+
+.imagenes img {
+	height: 35vh; 
+	border-radius: 100%; 
+
+
+}
+.div-img{
+	height: 70vh;   
+	width:20vw ;
+	display: flex ; 
+	flex-direction: column; 
+	text-align: center;
+	font-size: 70%; 
+	margin: 0px 5% ; 
+	color: rgb(23, 22, 22);
+	
+	
+}
+
+h5, h6{
+	margin: 0px;
+} 
+
+.t-actividad{
+	height: 8%; 
+	width: 100%;
+	font-size: 100%; 
+	margin: 0%; 
+	display: flex; 
+	flex-direction: column;
+	justify-content: center; 
+	font-size:2.5vh; 
+
+
+} 
+
+p{
+	margin: 3px 0px; 
+	color: rgb(13, 13, 13, 0.8);
+}
+
+
+body {
+	background-color: #f8fafc; 
+    margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#alquiler{ 
+	height: 5vh; 
+	text-align: center; 
+	font-size: 3vh; 
+	margin-bottom: 5px;
+	
+
+}
+
+#descrip{ 
+	height: 5vh; 
+	width: 60vw;
+	text-align: center; 
+	font-size: 95% ; 
+	margin-top: 10px ; 
+	color: rgb(13, 13, 13, 0.8)
+
+}
+
+
+
+
+.container {
+	padding: 1.5em; 
+	height: 100vh;  
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto; 
+	margin-top: 8vh;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 2rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1; 
+}
